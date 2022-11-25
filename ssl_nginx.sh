@@ -1,3 +1,5 @@
+#!/bin/bash
+
 OE_USER="odoo15"
 OE_PORT="8069"
 OE_SUPERADMIN="Admin1"
