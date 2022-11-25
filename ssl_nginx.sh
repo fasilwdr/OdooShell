@@ -1,12 +1,12 @@
 OE_USER="odoo15"
 OE_PORT="8069"
+OE_SUPERADMIN="Admin1"
 LONGPOLLING_PORT="8072"
 ENABLE_SSL="True"
 INSTALL_NGINX="True"
 WEBSITE_NAME="_"
 OE_CONFIG="${OE_USER}-server"
 ADMIN_EMAIL="fasilwdr.certbot@gmail.com"
-OE_SUPERADMIN="Admin1"
 #--------------------------------------------------
 # Update Server
 #--------------------------------------------------
