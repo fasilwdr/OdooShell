@@ -7,9 +7,6 @@ INSTALL_NGINX="True"
 WEBSITE_NAME="_"
 OE_CONFIG="${OE_USER}-server"
 ADMIN_EMAIL="fasilwdr.certbot@gmail.com"
-#--------------------------------------------------
-# Update Server
-#--------------------------------------------------
 echo -e "\n---- Update Server ----"
 # universe package is for Ubuntu 18.x
 sudo add-apt-repository universe
