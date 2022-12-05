@@ -1,12 +1,12 @@
 #!/bin/bash
 
-OE_USER="odoo15"
-OE_PORT="8016"
+OE_USER="odoo14"
+OE_PORT="8069"
 OE_SUPERADMIN="Admin1"
-LONGPOLLING_PORT="8017"
-ENABLE_SSL="True"
+LONGPOLLING_PORT="8072"
+ENABLE_SSL="False"
 INSTALL_NGINX="True"
-WEBSITE_NAME="bill.falgo.online"
+WEBSITE_NAME="alsalam.loc"
 OE_CONFIG="${OE_USER}-server"
 ADMIN_EMAIL="fasilwdr.certbot@gmail.com"
 echo -e "\n---- Update Server ----"
