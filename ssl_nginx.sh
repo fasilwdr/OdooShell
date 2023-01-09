@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OE_USER="odoo"
+OE_USER="odoo15"
 OE_PORT="8069"
 OE_SUPERADMIN="Admin1"
 LONGPOLLING_PORT="8072"
@@ -8,8 +8,8 @@ ENABLE_SSL="True"
 INSTALL_NGINX="True"
 WEBSITE_NAME="portal.anasia.sa"
 #Odoo Conf file name
-OE_CONFIG="${OE_USER}-server"
-ADMIN_EMAIL="fasilwdr.certbot@gmail.com"
+OE_CONFIG="${OE_USER}"
+ADMIN_EMAIL="it@anasiasaudi.com"
 echo -e "\n---- Update Server ----"
 # universe package is for Ubuntu 18.x
 sudo add-apt-repository universe
